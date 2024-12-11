@@ -1,4 +1,7 @@
 ---
+agof:
+  agof_repo: https://github.com/darkdoc/agof
+  agof_revision: test
 clusterGroup:
   name: hub
   isHubCluster: true
@@ -125,8 +128,8 @@ clusterGroup:
       name: edge-observability-stack
       namespace: edge-observability-stack
       project: hub
-      repoURL: https://github.com/validatedpatterns-demos/edge-observability-stack
-      chartVersion: main
+      repoURL: https://github.com/darkdoc/edge-observability-stack
+      chartVersion: test
       path: "."
 
   # Only the hub cluster here - managed entities are edge nodes
